@@ -33,3 +33,12 @@ Or if you have `curl` installed, use this command:
 curl -LO "https://dl.k8s.io/release/v1.23.0/bin/windows/amd64/kubectl.exe"
 ```
 Append or prepend the kubectl binary to your PATH environment variable.
+
+## Verify install
+Verify that kubectl is working by issuing `kubectl version`. You should see similar to this:
+```
+kubectl version --short
+Client Version: v1.24.0
+Kustomize Version: v4.5.4
+Server Version: v1.23.4
+```
